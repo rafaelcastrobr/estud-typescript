@@ -1,0 +1,14 @@
+instalar typescript -g (global) com npm
+
+tsc --init (para criar arquivo de configuraçao)
+
+alterar no tsconfig.json {
+  "rootDir": "./src",   
+  "target": "esnext",
+  "outDir": "./dist/js/",
+  "removeComments": true,
+} 
+   
+comando tsc para criar index bandle
+
+tsc -w (deixar atualização automatica)
